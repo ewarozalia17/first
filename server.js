@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.get('/',(req,res)=>{
     console.log("log from console log");
-    res.send("Welcome ",name);
+    res.send(`Welcome ${name}`);
 })
 
 app.get('/showFirstContainer',(req,res)=>{
