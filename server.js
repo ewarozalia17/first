@@ -2,7 +2,7 @@
 const express = require('express')
 const http = require('http');
 const app = express()
-const port= process.env.PORT || 3000;   //CHANGED FOR CONTAINER
+const port= process.env.PORT || 8080;   //CHANGED FOR CONTAINER
 server = http.createServer(app)
 
 app.use(express.json());
